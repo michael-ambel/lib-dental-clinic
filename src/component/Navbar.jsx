@@ -8,30 +8,30 @@ const Navbar = () => {
         setNav(!nav)
     }
     return ( 
-        <header>
-            <div className="flex justify-between pl-6 md:pl-16 pr-6 md:pr-16 font-sans items-center h-28 max-w-[1280px] p-6 bg-gray-200 z-1000">
-                <img className="w-[80px] md:w-[100px]" src="/logo.png" alt="logo"/>
-                <ul className="hidden md:flex justify-between min-w-[520px] text-l font-semibold text-gray-600">
-                    <li className="p-4">Home</li>
+        <nav>
+            <div className="flex justify-between items-center  pl-6 md:pl-16 pr-6 md:pr-16 font-sans h-28 w-full max-w-[1280px] p-6 bg-gray-200">
+                <img className="flex items-center justify-center h-[60px] md:h-[80px] aspect-square" src="/logo.png" alt="logo"/>
+                <ul className="hidden md:flex justify-between items-center min-w-[520px] text-l font-semibold text-gray-600">
+                    <li className="p-4 text-sky-600"><a>Home</a></li>
                     <li className="p-4">Services</li>
                     <li className="p-4">About Us</li>
                     <li className="p-4">Contact Us</li>
-                    <li className="p-4">Appointments</li>
+                    <li className="p-4 flex justify-center items-center h-[40px] rounded-[16px] border-[2px] border-sky-500 text-gray-600">Appointment</li>
                 </ul>
                 <div onClick={handleNav} className="block md:hidden">
                     {!nav ? <IoClose size={40}/>:<IoMenu size={40}/>}
                 </div>
             </div>
-            <div className= {!nav ? "z-[-1000] fixed block md:hidden text-l left-0 top-28 w-full h-[50%] text-gray-600 bg-gray-200 ease-in-out duration-1000" : "fixed left-0 top-[-100%] w-full h-[50%] z-[-1000]  text-gray-600 bg-gray-200 ease-in-out duration-1000"}>
-                <ul className="grid w-full place-content-center font-semibold">
-                    <li className="p-5">Home</li>
-                    <li className="p-5">Services</li>
-                    <li className="p-5">About Us</li>
-                    <li className="p-5">Contact Us</li>
-                    <li className="p-5">Appointments</li>
+            <div className= {!nav ? "fixed block md:hidden text-l left-0 top-28 w-full h-auto text-gray-600 bg-gray-200 ease-in-out duration-1000" : "fixed left-0 top-[-100%] w-full h-auto text-gray-600 bg-gray-200 ease-in-out duration-1000"}>
+                <ul className="flex flex-col items-center justify-center w-full font-semibold">
+                    <li className="p-5 w-[134px]">Home</li>
+                    <li className="p-5 w-[134px]">Services</li>
+                    <li className="p-5 w-[134px]">About Us</li>
+                    <li className="p-5 w-[134px]">Contact Us</li>
+                    <li className="p-5 w-[134px] flex justify-center mb-16 items-center h-[44px] rounded border-[2px] border-sky-500 text-gray-600">Appointment</li>
                 </ul>
             </div>
-        </header>
+        </nav>
      );
 }
  
