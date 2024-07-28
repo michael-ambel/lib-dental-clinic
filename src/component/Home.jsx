@@ -97,7 +97,7 @@ const Home = () => {
                     </div>
                     <div>
                         <div className='mb-2 text-[16px]'>
-                            <div className='lg:mb-24 text-[#FFFFFF]'>
+                            <div className='lg:mb-[60px] text-[#FFFFFF]'>
                                 <p>Smile brighter than your future! Level up your smile game! We're dental dreamweavers, using advanced technology to craft exceptional care.</p>
                             </div>
                             
@@ -111,7 +111,7 @@ const Home = () => {
                                     <p className='flex items-center mb-2 ml-1 hover:scale-110 transition-transform duration-300'> <span className='flex justify-center items-center pb-1 w-[28px] h-[28px] rounded-[20px] text-gray- border-[2px] border-[#06B9E1] mr-[10px]'>✔</span>  Fair Price</p>
                                 </div>
                             </div>
-                            <button className='flex items-center px-[38px] py-[20px] my-5 ml-1 h-[40px] text-white  bg-[#06B9E1] rounded-[20px] hover:scale-110 transition-transform duration-300' onClick={() => setIsOpen(true)}>Book Now</button>                   
+                            <button className='flex items-center px-[38px] py-[20px] my-5 ml-1 h-[44px] text-white  bg-[#06B9E1] rounded-[20px] hover:scale-110 transition-transform duration-300' onClick={() => setIsOpen(true)}>Book Now</button>                   
                         </div>
                     </div>
                 </div>
