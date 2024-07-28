@@ -27,7 +27,7 @@ const Contactus = () => {
                     <h2 className="text-[24px] font-bold text-[#FFFFFF] my-3">Visit Us</h2>
                     <p><span className="font-bold">Address:</span> Roba Bakery, Gerji, Bole, Addis Ababa</p>
                     <p><span className="font-bold">Direction:</span></p>
-                    <iframe className="h-[220px] w-[340px] my-[12px] rounded-[12px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d655.272947904009!2d38.813595805415105!3d8.994412855404779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8529104deb3f%3A0x5c21c9179739aebf!2zUm9iYSBCYWtlcnkgfCBHZXJqaSB8IOGIruGJoyDhi7PhiaYg4YiY4YyL4YyI4Yiq4YurIHwg4YyI4Yit4YyC!5e0!3m2!1sen!2set!4v1719148511765!5m2!1sen!2set" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className="h-[220px] w-[340px] my-[12px] rounded-[12px]" title="libmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d655.272947904009!2d38.813595805415105!3d8.994412855404779!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8529104deb3f%3A0x5c21c9179739aebf!2zUm9iYSBCYWtlcnkgfCBHZXJqaSB8IOGIruGJoyDhi7PhiaYg4YiY4YyL4YyI4Yiq4YurIHwg4YyI4Yit4YyC!5e0!3m2!1sen!2set!4v1719148511765!5m2!1sen!2set" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 

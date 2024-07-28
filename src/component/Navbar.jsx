@@ -11,10 +11,6 @@ const Navbar = () => {
         setNav(!nav)
     }
 
-    const handleScrollClick = (sectionId) => {
-        document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-      };
-
 
       //active nave color 
 
