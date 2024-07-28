@@ -33,7 +33,7 @@ const Contactus = () => {
 
 
             <h2 className="relative top-[20px] lg:top-[-40px] text-[20px] text-sky-500 font-bold">We look forward to hearing from you!</h2>
-            <p className="relative top-[20px] lg:top-[-20px]">&copy;2024 Lib Specialty Dental Clinic</p>
+            <p className="relative top-[30px] lg:top-[-20px] text-gray">&copy;2024 Lib Specialty Dental Clinic</p>
         </div>
         </div>
      );
